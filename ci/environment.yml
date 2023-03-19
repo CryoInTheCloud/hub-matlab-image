@@ -1,8 +1,8 @@
-name: openscapes
+name: cryocloud
 channels:
   - conda-forge
 dependencies:
-  - python=3.9
+  - python==3.10.8
   - pangeo-notebook
   - xarray
-  - earthdata>=0.3.1
+  - earthaccess==0.5.0
