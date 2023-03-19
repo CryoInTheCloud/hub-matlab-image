@@ -2,7 +2,7 @@ FROM ghcr.io/mathworks-ref-arch/matlab-integration-for-jupyter/jupyter-matlab-no
 
 COPY . /tmp/build
 
-ENV CONDA_ENV="openscapes"
+ENV CONDA_ENV="cryocloud"
 ENV PYTHON_PREFIX=/opt/conda
 
 WORKDIR /tmp/build
